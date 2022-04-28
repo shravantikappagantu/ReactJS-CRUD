@@ -1,0 +1,64 @@
+/* .App {
+  margin: 0 auto;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+} */
+
+.container {
+  background-color: rgb(244, 222, 180);
+  min-height: 99vh;
+}
+
+.header {
+  text-align: center;
+  color: rgb(5, 58, 106);
+  padding-block-start: 0%;
+  text-shadow: #ccc;
+}
+
+.myForm {
+  float: center;
+  margin: 50px;
+  width: 47%;
+  background: #6fa5e2;
+  border-radius: 5px;
+  padding: 18px;
+}
+
+.formField {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 8px 0px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.add {
+  background-color: lightpink;
+  border: 1px solid #2a8387;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  display: block;
+  font-size: 17px;
+  line-height: 100%;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow 0.05s ease-in-out, opacity 0.05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.edit {
+  background-color: rgb(226, 226, 93);
+}
+.delete {
+  background-color: rgb(228, 66, 66);
+}
